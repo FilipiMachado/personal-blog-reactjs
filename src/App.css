@@ -178,5 +178,26 @@ textarea {
   flex: 50%;
 }
 
+.post-header .delete-post {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
+.delete-post button {
+  border: none;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.post .post-text__container {
+  word-wrap: break-word;
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
 

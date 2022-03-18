@@ -34,7 +34,7 @@ function App() {
           )}
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home isAuth={isAuth}/>} />
           <Route path="/create-post" element={<CreatePost isAuth={isAuth}/>} />
           <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
         </Routes>
