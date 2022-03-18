@@ -26,3 +26,83 @@ a {
   margin: 10px;
   font-size: 25px;
 }
+
+/* Create Post Page */
+
+.create-post-page {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background-color: #303030;
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container label {
+  font-size: 25px;
+}
+
+.container .input-group {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input,
+.input-group textarea {
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.input-group input {
+  height: 40px;
+}
+
+.input-group textarea {
+  height: 150px;
+}
+
+.container button {
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input,
+textarea {
+  margin-top: 5px;
+}
+
+/* Login Page */
+
+.login-page {
+  width: 100vw;
+  height: calc(100vh - 8px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page p {
+  font-size: 30px;
+}
+
