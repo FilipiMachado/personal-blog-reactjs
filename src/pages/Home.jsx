@@ -27,6 +27,7 @@ function Home() {
             <div className="post-text__container">
               { post.postText }
             </div>
+            <h3>@{ post.author.name }</h3>
           </div>
         )
       })}
