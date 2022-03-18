@@ -10,7 +10,7 @@ function CreatePost({ isAuth }) {
   const postsCollectionRef = collection(db, "posts");
   let navigate = useNavigate();
 
-  const createPost = async (state) => {
+  const createPost = async () => {
     await addDoc(postsCollectionRef, {
       title,
       postText,
