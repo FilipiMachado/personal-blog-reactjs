@@ -1,11 +1,15 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+/* React */
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+/* Firebase */
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase-config";
+/* Components */
 import Home from "./pages/Home/Home";
 import CreatePost from "./pages/CreatePost/CreatePost";
 import Login from "./pages/Login/Login";
+/* Styles */
+import "./App.css";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
