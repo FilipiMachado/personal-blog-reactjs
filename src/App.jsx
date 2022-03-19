@@ -28,7 +28,7 @@ function App() {
           ) : (
             <>
               <Link to="/create-post">Criar Post</Link>
-              <button onClick={logOut}>Sair</button>
+              <button class="login-btn" onClick={logOut}>Sair</button>
             </>
           )}
         </nav>
