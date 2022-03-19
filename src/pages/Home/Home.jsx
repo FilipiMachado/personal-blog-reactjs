@@ -1,6 +1,10 @@
+/* React */
 import React, { useState, useEffect  } from 'react';
+/* Firebase */
 import { getDocs, collection, deleteDoc, doc } from 'firebase/firestore';
-import { db, auth } from '../firebase-config';
+import { db, auth } from '../../firebase-config';
+/* Styles */
+import "./styles.css";
 
 function Home( isAuth ) {
   const [postLists, setPostLists] = useState([]);

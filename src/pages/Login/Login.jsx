@@ -1,7 +1,11 @@
+/* React */
 import React from 'react';
-import { auth, provider } from '../firebase-config';
-import { signInWithPopup } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
+/* Firebase */
+import { auth, provider } from '../../firebase-config';
+import { signInWithPopup } from 'firebase/auth';
+/* Styles */
+import "./styles.css";
 
 function Login({ setIsAuth }) {
   let navigate = useNavigate();

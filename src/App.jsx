@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase-config";
-import Home from "./pages/Home";
-import CreatePost from "./pages/CreatePost";
-import Login from "./pages/Login";
-import { useEffect } from "react/cjs/react.development";
+import Home from "./pages/Home/Home";
+import CreatePost from "./pages/CreatePost/CreatePost";
+import Login from "./pages/Login/Login";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
