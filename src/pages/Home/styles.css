@@ -11,11 +11,12 @@
 .home-page .post {
   width: 50%;
   height: auto;
-  background-color: #fff;
+  background-color: #20232A;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 20px;
   padding: 20px;
   border-radius: 15px;
+  color: #fff;
 }
 
 .post .post-header {
@@ -36,6 +37,7 @@
   background: none;
   font-size: 30px;
   cursor: pointer;
+  color: #fff;
 }
 
 .post .post-text__container {
@@ -45,4 +47,11 @@
   width: 100%;
   overflow: hidden;
   overflow-y: auto;
+}
+
+.post-text__title {
+  color: #61dafb;
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 0.01em;
 }
